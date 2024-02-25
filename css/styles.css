@@ -154,18 +154,29 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/Dark-bg-phone.jpg);
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: #ffffff;
   align-items: center;
-  max-width: 100%;
+  max-width: 320px;
   height: 432px;
   /* padding-top: 188px;
   padding-bottom: 188px; */
   /* max-width: 1440px; */
+}
+@media screen and (device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-phone2x.jpg);
+  }
 }
 .main-title {
   /* font-size: 56px;
@@ -232,7 +243,7 @@ img {
   flex-shrink: 0;
 }
 .advantages-icons-list {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
@@ -774,6 +785,23 @@ img {
   }
   .first-section {
     max-width: 1199px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab.jpg);
+    max-width: 768px;
+  }
+  @media screen and (device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .first-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab2x.jpg);
+    }
   }
   .first-section-container {
     width: 600px;
@@ -837,6 +865,23 @@ img {
 
   .first-section {
     width: 100%;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    max-width: 1200px;
+  }
+  @media screen and (device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .first-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office2x.jpg);
+    }
   }
   .frst-seiction-container {
     width: 496px;
@@ -866,16 +911,21 @@ img {
   .advantages {
     gap: 24px;
   }
+
   .advantages-item {
     width: calc((100% - 72px) / 4);
+  }
+  .advantages-icons-list {
+    display: flex;
   }
   .photos-list {
     display: flex;
     flex-wrap: nowrap;
+    padding: 0;
   }
   .images-list {
     gap: 24px;
-    width: calc((100% - 24px) / 4);
+    width: calc((100% - 72px) / 4);
   }
 
   .six-images-list {
