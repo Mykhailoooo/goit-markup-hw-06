@@ -1063,6 +1063,7 @@ img {
     width: calc((100% - 24px) / 2);
   }
   .footer-section {
+    /* padding: 0 108px; */
     padding: 0;
     /* padding: 96px 164px 96px 108px; */
   }
