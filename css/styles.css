@@ -1063,15 +1063,17 @@ img {
     width: calc((100% - 24px) / 2);
   }
   .footer-section {
-    padding: 96px 0;
+    padding: 0;
+    /* padding: 96px 164px 96px 108px; */
   }
   .footer-block {
+    padding: 96px 164px 96px 108px;
     align-items: baseline;
     gap: 72px 24px;
     justify-content: left;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: left;
   }
   .subscribe {
@@ -1083,7 +1085,9 @@ img {
     display: flex;
     flex-wrap: wrap;
   }
-
+  .button-submit {
+    margin-left: 0;
+  }
   .modal {
     width: 408px;
     min-height: 584px;
