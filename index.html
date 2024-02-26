@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="link-webstudio" href="./index.html"
@@ -37,15 +37,22 @@
             <li><a class="link" href="">Portfolio</a></li>
             <li><a class="link" href="">Contacts</a></li>
           </ul>
+          <button type="button" class="header-button">
+            <a href="" class="header-button">
+              <svg class="header-button" width="24" height="24">
+                <use href="./images/icons.svg#icon-header-button"></use>
+              </svg>
+            </a>
+          </button>
         </nav>
         <address class="address">
           <ul class="link-address">
-            <li>
+            <li class="soc-adress">
               <a class="link address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="soc-adress">
               <a class="link address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -53,7 +60,75 @@
           </ul>
         </address>
       </div>
-    </header>-->
+      <div class="mob-menu">
+        <div>
+          <button type="button" class="header-close">
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp"></use>
+            </svg>
+          </button>
+          <nav class="mob-menu-navigation">
+            <ul class="mob-menu-list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link-after" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mob-soc-item">
+              <a class="mob-soc-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-icon-list">
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="mob-icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="mob-icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="mob-icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-icon-item">
+              <a href="" class="mob-icon-link">
+                <svg class="mob-icon-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="first-section">
         <div class="first-section-container">
@@ -568,7 +643,7 @@
         </div>
       </section>
     </main>
-    <!--  <footer class="footer-section">
+    <footer class="footer-section">
       <div class="block footer-block">
         <div class="footer-container">
           <a class="footer-link-webstudio" href="./index.html"
@@ -632,8 +707,8 @@
           </form>
         </div>
       </div>
-    </footer>-->
-    <!-- <div class="backdrop">
+    </footer>
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="close-icon" width="8" height="8">
@@ -716,6 +791,6 @@
           <button type="submit" class="send-button">Send</button>
         </form>
       </div>
-    </div>-->
+    </div>
   </body>
 </html>
