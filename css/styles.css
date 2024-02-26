@@ -1239,11 +1239,15 @@ img {
     display: flex;
     justify-content: center;
   }
+  .footer-container {
+    margin-right: 80px;
+  }
   .footer-photo-container {
   }
 
   .subscribe {
     display: block;
+    margin-left: 60px;
   }
   .form {
     display: flex;
