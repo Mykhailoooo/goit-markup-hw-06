@@ -1207,7 +1207,13 @@ img {
     gap: 24px;
     width: calc((100% - 72px) / 4);
   }
+  .four-images {
+    width: 100%;
+  }
 
+  .images {
+    width: 100%;
+  }
   .six-images-list {
     width: calc((100% - 48px) / 3);
   }
